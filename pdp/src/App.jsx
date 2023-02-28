@@ -8,6 +8,7 @@ import Footer from "home/Footer";
 import SafeComponent from "./SafeComponent";
 import PDPContent from "./PDPContent";
 
+import "remixicon/fonts/remixicon.css";
 import "./index.scss";
 
 const App = () => {

@@ -24,6 +24,7 @@ Use the `/auth/login` route to login.
 ```
 $ # POST /auth/login
 $ curl -X POST http://localhost:8080/auth/login -d '{"username": "maria", "password": "123"}' -H "Content-Type: application/json"
+$ Invoke-RestMethod -Uri http://localhost:8080/auth/login -body '{"username": "maria", "password": "123"}'
 $ # result -> {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2Vybm... }
 ```
 
