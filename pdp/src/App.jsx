@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // const Header = React.lazy(() => import("home/Header"));
 // const Footer = React.lazy(() => import("home/Footer"));
-import Header from "home/Header";
-import Footer from "home/Footer";
 import SafeComponent from "./SafeComponent";
-import PDPContent from "./PDPContent";
-
 import "remixicon/fonts/remixicon.css";
 import "./index.scss";
+
+import Header from "home/Header";
+import Footer from "home/Footer";
+import PDPContent from "./PDPContent";
 
 const App = () => {
   return (
